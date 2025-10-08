@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Photo Gallery</h1>
+  <div class="gallery">
+    <div class="main-image">
+      <img id="displayed-image" src="home1.jpg" alt="Main Display" />
+    </div>
+    <div class="houses">
+      <img src="home1.jpg" onclick="changeImage(this)" alt="home1.jpg" />
+      <img src="home2.jpg" onclick="changeImage(this)" alt="home2.jpg" />
+      <img src="home3.jpeg" onclick="changeImage(this)" alt="home3.jpeg" />
+      <img src="home4.jpg" onclick="changeImage(this)" alt="home4.jpg" />
+      <img src="home5.jpg" onclick="changeImage(this)" alt="home5.jpg" />
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
